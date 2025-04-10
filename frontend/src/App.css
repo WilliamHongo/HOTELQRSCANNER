@@ -1,0 +1,46 @@
+/* App.css */
+
+/* The container for the QR scanner */
+.scanner-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the QR scanner div */
+.qr-scanner {
+  width: 100%;
+  height: 500px; /* Adjust height for larger scanning window */
+  max-width: 600px; /* Optional: Max width for the scanner */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button styling */
+.scan-button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.scan-button:hover {
+  background-color: #21a1f1;
+}
+
+/* Styling for the result text */
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
